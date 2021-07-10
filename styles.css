@@ -1,0 +1,40 @@
+#container{
+text-align: center;
+font-family: sans-serif;
+}
+
+.clock{
+    font-family: system-ui;
+    background-color: #ffa07aab;
+    color: #a22e03;
+    height: 300px;
+    width: 50%;
+    margin: auto;
+    border-radius: 20px;
+    border: 20px ridge #ff7800e6;
+    box-shadow: 12px 8px 0px 9px #ff5d03;
+    display: inline-block;
+}
+
+#display{
+
+    background-color: lightsalmon;
+    width: 70%;
+    font-size: 9vw;
+    margin: 6% auto 0 auto;
+    padding: 10px;
+    border-radius: 18px;
+}
+
+.buttons{
+    padding: 10px;
+    margin: 14px;
+    font-size: 1.6vw;
+    border-radius: 10px;
+    background-color: lightsalmon;
+    width: 8vw;
+}
+
+.buttons:hover{
+    background-color: #ffa07aab;
+}
